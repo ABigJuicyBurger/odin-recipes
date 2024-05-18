@@ -1,12 +1,55 @@
 /* Styles file */
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
 h1 {
     color: rgb(74, 158, 158);
     text-align: center;
 }
 
+h2 {
+    text-align: center;
+    list-style: none;
+    margin-bottom: 1%;
+}
+
+#Bio
+{
+    color: rgb(74, 158, 158);
+    text-align: center;
+}
+
 .mainimage {
-    display: block;
+    display: flex;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 75%;
+}
+
+ul li {
+    list-style: none;
+    margin-bottom: 1%;
+}
+
+ol li {
+    list-style: none;
+    margin-bottom: 1%;
+}
+
+#Home {
+    background-color: rgb(133, 243, 60);
+    font-weight: 0;
+}
+
+.Description {
+    position: relative;
+    left: 42px;
+}
+
+img {
+    align
+}
+
+#Homelist {
+    text-align: center;
 }
