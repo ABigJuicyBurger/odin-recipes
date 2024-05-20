@@ -1,21 +1,32 @@
 /* Styles file */
+ * {
+    background-color: rgb(88, 182, 182);
+    margin: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
+} 
+
 body {
     font-family: 'Times New Roman', Times, serif;
+    border-color: black;
+    border-style: solid;
+    background-color: white;
 }
 h1 {
-    color: rgb(74, 158, 158);
+    color: rgb(0, 0, 0);
     text-align: center;
+    background-color: white;
 }
 
 h2 {
     text-align: center;
     list-style: none;
-    margin-bottom: 1%;
+    margin-bottom: 1%;    
 }
 
 #Bio
 {
-    color: rgb(74, 158, 158);
+    background-color: white;
+    color: rgb(0, 0, 0);
     text-align: center;
 }
 
@@ -29,6 +40,9 @@ h2 {
 ul li {
     list-style: none;
     margin-bottom: 1%;
+    border: 1px;
+    border-color: black;
+    border-style: solid;
 }
 
 ol li {
@@ -37,19 +51,17 @@ ol li {
 }
 
 #Home {
-    background-color: rgb(133, 243, 60);
+    background-color: rgb(197, 212, 169);
     font-weight: 0;
+    padding: 20px;
 }
 
 .Description {
-    position: relative;
-    left: 42px;
-}
 
-img {
-    align
 }
 
 #Homelist {
     text-align: center;
+    background-color: rgb(114, 199, 199);
+
 }
