@@ -12,9 +12,8 @@ body {
     background-color: white;
 }
 h1 {
-    color: rgb(0, 0, 0);
+    background-color: rgb(88, 182, 182);
     text-align: center;
-    background-color: white;
 }
 
 h2 {
@@ -25,7 +24,7 @@ h2 {
 
 #Bio
 {
-    background-color: white;
+    background-color: rgb(88, 182, 182);
     color: rgb(0, 0, 0);
     text-align: center;
 }
@@ -35,14 +34,16 @@ h2 {
     margin-left: auto;
     margin-right: auto;
     width: 75%;
+    background-color: black;
 }
 
 ul li {
     list-style: none;
     margin-bottom: 1%;
-    border: 1px;
+    border: 2px;
     border-color: black;
     border-style: solid;
+    padding: 10px;
 }
 
 ol li {
@@ -51,17 +52,24 @@ ol li {
 }
 
 #Home {
-    background-color: rgb(197, 212, 169);
+    background-color: rgb(242, 250, 228);
     font-weight: 0;
-    padding: 20px;
+    padding: 15px;
+    border: 1px solid black;
 }
 
-.Description {
+/* .Description {
 
-}
+} */
 
 #Homelist {
     text-align: center;
     background-color: rgb(114, 199, 199);
+    padding: 10px;
+}
 
+#wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    width: 960px;
 }
